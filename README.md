@@ -1,4 +1,8 @@
-# deep-learning-challenge
+# Analysis of Deep Learning Model Optimization and Performance
+
+### Overview of the Analysis:
+The purpose of this analysis is to develop a deep learning model using neural networks to predict the success of applicants from Alphabet Soup. The model aims to classify whether an applicant will be successful if funded based on various features provided in the dataset.
+
 ### Results:
 
 #### Data Preprocessing:
@@ -9,6 +13,9 @@
 - **Features:**
   - Features include various columns such as "APPLICATION_TYPE," "AFFILIATION," "CLASSIFICATION," etc., providing information about the applicants.
   - Despite "NAME" not directly contributing to prediction, it was retained in the input data due to its impact on accuracy.
+    
+- **Variables to be Removed:**
+  - "EIN" is a unique identifiers and does not contribute to the prediction. Therefore, it was removed from the input data.
 
 #### Compiling, Training, and Evaluating the Model:
 
@@ -21,9 +28,8 @@
   - The model achieved an accuracy of approximately 79%, exceeding the target accuracy of 75%.
   - The loss value was approximately 0.55, indicating moderate performance.
 
-Absolutely, let's revise the "Steps Taken to Increase Model Performance" section to walk through each of the three attempts:
 
-- Steps Taken to Increase Model Performance:
+### Steps Taken to Increase Model Performance:
 
 #### Attempt #1:
 - **Architecture**:
